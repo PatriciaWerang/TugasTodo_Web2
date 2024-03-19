@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To My Todo APP </title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <h1>Patricia Werang</h1>
+        <div class="title">
+            <h4>Todo App</h4>
+        </div>
+
+        <input type="Tittle" id="todo-title" placeholder="masukan judul">
+        <textarea name="Description" id="todo-descrip" cols="45" rows="2" placeholder="masukan deskripsi"></textarea>
+        <button id="add-todo" onclick="onAddTodo();">Add</button>
+
+        <h4>List Data</h4>
+        <ul id="todo-list">
+        </ul>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
